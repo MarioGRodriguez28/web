@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>HUB: graphics-design</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Favicon and touch icons -->
+
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+  </style>
+
+</head>
+
+<body>
+
+  <!-- LOGIN -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <header class="top-content contenedor">
+    <div class="inner-bg">
+      <div class="menu-top">
+        <!-- SEARCH -->
+        <div>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-custom my-3 my-sm-3" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="login ">
+          <p class="navbar-text">Already have an account?</p>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="sdropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+              <ul id="login-dp" class="dropdown-menu">
+                <li>
+                  <div class="row">
+                    <div class="col-md-12">
+                      Login via
+                      <div class="social-buttons">
+                        <a href="#" class="btn btn-fb"><i class="fab fa-facebook-f"></i>
+                          Facebook</a>
+                        <a href="#" class="btn btn-li"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+                      </div>
+                      or
+                      <form class="form1" role="form" method="post" action="login" id="login-nav">
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputEmail2">Email
+                            address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address"
+                            required>
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputPassword2">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"
+                            required>
+                          <div class="help-block text-right"><a href="">Forget the password
+                              ?</a>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <button type="submit" class="btn btn-custom btn-block active">Sign
+                            in</button>
+                        </div>
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"><i>keep me logged-in</i>
+                          </label>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="bottom text-center">
+                      New here ? <a href="#"><b>Join Us</b></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!---LOGO-->
+      <div class="container container-log">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text">
+            <img src="img/Logo_hub.png" id="logo" alt="">
+            <h1 class="wow fadeInLeftBig">HAVE<span id="orange"> ur<br> </span>BUSINESS</h1>
+            <div class=" wow fadeInUp"> </div>
+          </div>
+        </div>
+      </div>
+      <nav class="menu">
+
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" >Home</a>
+          <div class="mdropdown">
+            <button class="dropbtn active"> Graphics &amp; Design
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="mdropdown-content">
+              <a class="mdropdown-item child-1" href="graphic_design.html">Todas las categorias</a>
+              <div class="dropdown-divider"></div>
+              <a class="mdropdown-item" href="#">Logo Design</a>
+              <a class="mdropdown-item" href="#">Illustration</a>
+              <a class="mdropdown-item" href="#">Portraits & Caricatures</a>
+              <a class="mdropdown-item" href="#">Portraits & Caricatures</a>
+              <a class="mdropdown-item" href="#">Cartoons & Comics</a>
+              <a class="mdropdown-item" href="#">Flyers & Brochures</a>
+              <a class="mdropdown-item" href="#">Book & Album Covers</a>
+              <a class="mdropdown-item" href="#">Packaging Design</a>
+              <a class="mdropdown-item" href="#">Web & Mobile Design</a>
+              <a class="mdropdown-item" href="#">Social Media Design</a>
+              <a class="mdropdown-item" href="#">Banner Ads</a>
+              <a class="mdropdown-item" href="#">Photoshop Editing</a>
+              <a class="mdropdown-item" href="#">Architecture & Floor Plans</a>
+              <a class="mdropdown-item" href="#">3D Models & Product Design</a>
+              <a class="mdropdown-item" href="#">T-Shirts & Merchandise</a>
+              <a class="mdropdown-item" href="#">Presentation Design</a>
+              <a class="mdropdown-item" href="#">Infographic Design</a>
+              <a class="mdropdown-item" href="#">Vector Tracing</a>
+              <a class="mdropdown-item" href="#">Invitations</a>
+            </div>
+          </div>
+          <div class="mdropdown">
+            <button class="dropbtn">Writing & Translation
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="mdropdown-content">
+              <a class="mdropdown-item child-1" href="graphic_design.html">Todas las categorias</a>
+              <div class="dropdown-divider"></div>
+              <a class="mdropdown-item" href="#">Resumes & Cover Letters</a>
+              <a class="mdropdown-item" href="#">Product s</a>
+              <a class="mdropdown-item" href="#">Website Content</a>
+              <a class="mdropdown-item" href="#">Technical Writing</a>
+              <a class="mdropdown-item" href="#">Proofreading & Editing</a>
+              <a class="mdropdown-item" href="#">Translation</a>
+              <a class="mdropdown-item" href="#">Creative Writing</a>
+              <a class="mdropdown-item" href="#">Research & Summaries</a>
+              <a class="mdropdown-item" href="#">Articles & Blog Posts</a>
+              <a class="mdropdown-item" href="#">Sales Copy</a>
+              <a class="mdropdown-item" href="#">Press Releases</a>
+              <a class="mdropdown-item" href="#">Transcription</a>
+              <a class="mdropdown-item" href="#">Legal Writing</a>
+              <a class="mdropdown-item" href="#">Email Copy</a>
+              <a class="mdropdown-item" href="#"> Business Names & Slogans</a>
+            </div>
+          </div>
+          <div class="mdropdown">
+            <button class="dropbtn">Video & Animation
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="mdropdown-content">
+              <a class="mdropdown-item child-1" href="graphic_design.html">Todas las categorias</a>
+              <div class="dropdown-divider"></div>
+              <a class="mdropdown-item" href="#">Whiteboard & Animated Explainers</a>
+              <a class="mdropdown-item" href="#">Intros & Outros</a>
+              <a class="mdropdown-item" href="#">Logo Animation</a>
+              <a class="mdropdown-item" href="#">Slideshows & Promo Videos</a>
+              <a class="mdropdown-item" href="#">Video Editing</a>
+              <a class="mdropdown-item" href="#">Visual Effects</a>
+              <a class="mdropdown-item" href="#">Lyric & Music Videos</a>
+              <a class="mdropdown-item" href="#">Spokesperson Videos</a>
+              <a class="mdropdown-item" href="#">Animated Characters & Modeling</a>
+              <a class="mdropdown-item" href="#">Short Video Ads</a>
+              <a class="mdropdown-item" href="#">Live Action Explainers</a>
+              <a class="mdropdown-item" href="#">Product Photography</a>
+            </div>
+          </div>
+          <div class="mdropdown">
+            <button class="dropbtn">Music & Audio
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="mdropdown-content">
+              <a class="mdropdown-item child-1" href="graphic_design.html">Todas las categorias</a>
+              <div class="dropdown-divider"></div>
+              <a class="mdropdown-item" href="#">Voice Over</a>
+              <a class="mdropdown-item" href="#">Mixing & Mastering</a>
+              <a class="mdropdown-item" href="#">Producers & Composers</a>
+              <a class="mdropdown-item" href="#">Singer-Songwriters</a>
+              <a class="mdropdown-item" href="#">Session Musicians & Singers</a>
+              <a class="mdropdown-item" href="#">Jingles & Drops</a>
+              <a class="mdropdown-item" href="#">Sound Effects</a>
+            </div>
+          </div>
+          <div class="mdropdown">
+            <button class="dropbtn">Programming & Tech
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="mdropdown-content">
+              <a class="mdropdown-item child-1" href="graphic_design.html">Todas las categorias</a>
+              <div class="dropdown-divider"></div>
+              <a class="mdropdown-item" href="#">WordPress</a>
+              <a class="mdropdown-item" href="#">Website Builders & CMS</a>
+              <a class="mdropdown-item" href="#">Web Programming</a>
+              <a class="mdropdown-item" href="#">Ecommerce</a>
+              <a class="mdropdown-item" href="#">Mobile Apps & Web</a>
+              <a class="mdropdown-item" href="#">Desktop applications</a>
+              <a class="mdropdown-item" href="#">Support & IT</a>
+              <a class="mdropdown-item" href="#">Chatbots</a>
+              <a class="mdropdown-item" href="#">Data Analysis & Reports</a>
+              <a class="mdropdown-item" href="#">Convert Files</a>
+              <a class="mdropdown-item" href="#">Databases</a>
+              <a class="mdropdown-item" href="#">User Testing</a>
+              <a class="mdropdown-item" href="#">QA</a>
+            </div>
+          </div>
+          <a href="#networking">Networking</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Section 1 -->
+  <main>
+    <div class="row">
+      <div class="col section-1  wow fadeIn">
+        <h2>Graphics &amp; Design</h2>
+        <div class="divider-1 wow fadeInUp"><span></span></div>
+      </div>
+    </div>
+
+    <section class="section-container">
+      <aside class="hide ">
+        <ul>
+          <li><a href="/categories/graphics-design/creative-logo-design?source=side-menu">Logo Design</a></li>
+          <li><a href="/categories/graphics-design/sample-business-cards-design?source=side-menu">Business Cards &amp;
+              Stationery</a></li>
+          <li><a href="/categories/graphics-design/digital-illustration?source=side-menu">Illustration</a></li>
+          <li><a href="/categories/graphics-design/portraits-and-caricatures?source=side-menu">Portraits &amp;
+              Caricatures</a></li>
+          <li><a href="/categories/graphics-design/car-wrap-design?source=side-menu">Car Wraps</a></li>
+          <li><a href="/categories/graphics-design/cartoons-and-comics?source=side-menu">Cartoons &amp; Comics</a></li>
+          <li><a href="/categories/graphics-design/creative-brochure-design?source=side-menu">Flyers &amp; Brochures</a>
+          </li>
+          <li><a href="/categories/graphics-design/cover-design?source=side-menu">Book &amp; Album Covers</a></li>
+          <li><a href="/categories/graphics-design/product-packaging-design?source=side-menu">Packaging Design</a></li>
+          <li><a href="/categories/graphics-design/web-plus-mobile-design?source=side-menu">Web &amp; Mobile Design</a>
+          </li>
+          <li><a href="/categories/graphics-design/social-media-design?source=side-menu">Social Media Design</a></li>
+          <li><a href="/categories/graphics-design/banner-ads?source=side-menu">Banner Ads</a></li>
+          <li><a href="/categories/graphics-design/buy-photos-online-photoshopping?source=side-menu">Photoshop
+              Editing</a>
+          </li>
+          <li><a href="/categories/graphics-design/architectural-design-services?source=side-menu">Architecture &amp;
+              Floor
+              Plans</a></li>
+          <li><a href="/categories/graphics-design/product-design-services?source=side-menu">3D Models &amp; Product
+              Design</a></li>
+          <li><a href="/categories/graphics-design/t-shirts?source=side-menu">T-Shirts &amp; Merchandise</a></li>
+          <li><a href="/categories/graphics-design/presentations-design?source=side-menu">Presentation Design</a></li>
+          <li><a href="/categories/graphics-design/infographics-design?source=side-menu">Infographic Design</a></li>
+          <li><a href="/categories/graphics-design/vector-tracing?source=side-menu">Vector Tracing</a></li>
+          <li><a href="/categories/graphics-design/invitations?source=side-menu">Invitations</a></li>
+          <li><a href="/stores/twitch?source=side-menu">Twitch Store</a></li>
+          <li><a href="/categories/graphics-design/graphics-services?source=side-menu">Other</a></li>
+        </ul>
+      </aside>
+
+      <section class="galeria">
+        <div class="container page-top">
+          <div class="row ">
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Logo Design</div>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid" alt="">
+                <div>Business Cards &amp; Stationery</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Illustration</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Portraits &amp; Caricatures</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>>Car Wraps</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Cartoons &amp; Comics</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Flyers &amp; Brochures</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Book &amp; Album Covers</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Packaging Design</div>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid" alt="">
+                <div>Web &amp; Mobile Design</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Social Media Design</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Banner Ads</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Photoshop Editing</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Architecture &amp; Floor Plans</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>3D Models &amp; Product Design</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>T-Shirts &amp; Merchandise</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Presentation Design</div>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid" alt="">
+                <div>Infographic Design</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Vector Tracing</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Invitations</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Twitch Store</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                class="box" rel="ligthbox">
+                <img
+                  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  class="zoom img-fluid " alt="">
+                <div>Other</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+
+    <div class="footer-top">
+
+      <div class="container">
+        <div>
+          <img src="img/Logo_hub_gray.png" alt="">
+        </div>
+        <div class="row">
+          <div class="col-md-3 footer-about wow fadeInUp">
+
+            <h3>About us</h3>
+            <p>
+              We are a young company always looking for new and creative ideas to help you with our
+              products in your
+              everyday work.
+            </p>
+            <p>&copy; HUB Inc.</p>
+          </div>
+          <div class="col-md-4 offset-md-1 footer-contact wow fadeInDown">
+            <h3>Contact</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
+            <p><i class="fas fa-phone"></i> Phone: (+34) 657 62 18 51</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hub@domain.com">hub@domain.com</a>
+            </p>
+            <p><i class="fab fa-skype"></i> Skype: you_online</p>
+          </div>
+          <div class="col-md-4 footer-links wow fadeInUp">
+            <div class="row">
+              <div class="col">
+                <h3>Links</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p><a class="scroll-link" href="index.html">Home</a></p>
+                <p><a href="#">Graphics &amp; Design</a></p>
+                <p><a href="#">Writing &amp; Translation</a></p>
+                <p><a href="#">Vide &amp; Animation</a></p>
+                <p><a href="#">Music &amp; Audio</a></p>
+                <p><a href="#">Programming &amp; Tech</a></p>
+                <p><a href="#">Networking</a></p>
+              </div>
+              <div class="col-md-6">
+                <p><a href="#">Plans &amp; pricing</a></p>
+                <p><a href="#">Affiliates</a></p>
+                <p><a href="#">Terms</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <!--<script src="js/jquery.backstretch.min.js"></script>-->
+  <script src="js/wow.min.js"></script>
+  <script src="js/retina-1.1.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <script>
+    // Menu de navegacion
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+    // Menu de navegacion Fixed
+    $(document).ready(function () {
+      var altura = $('.menu').offset().top;
+      $(window).on('scroll', function () {
+        if ($(window).scrollTop() > altura) {
+          $('.menu').addClass('menu-fixed');
+        } else {
+          $('.menu').removeClass('menu-fixed');
+        }
+      });
+
+    });
+    // Efectos WOW
+    new WOW().init();
+
+    // Carrusel
+    var $carousel = $('.carousel'),
+      currentSlide, nextSlide;
+
+    $('.next').click(function () {
+      currentSlide = $carousel.attr('data-slide');
+      nextSlide = +currentSlide === 4 ? 1 : +currentSlide + 1;
+      $carousel.attr('data-slide', nextSlide);
+    });
+
+    $('.prev').click(function () {
+      currentSlide = $carousel.attr('data-slide');
+      nextSlide = +currentSlide === 1 ? 4 : +currentSlide - 1;
+      $carousel.attr('data-slide', nextSlide);
+    });
+
+
+    $(document).ready(function () {
+
+      // Loop through each nav item
+      $('nav.navbar').children('ul.nav').children('li').each(function (indexCount) {
+
+        // loop through each dropdown, count children and apply a animation delay based on their index value
+        $(this).children('ul.mdropdown').children('li').each(function (index) {
+
+          // Turn the index value into a reasonable animation delay
+          var delay = 0.1 + index * 0.03;
+
+          // Apply the animation delay
+          $(this).css("animation-delay", delay + "s")
+        });
+      });
+    });
+    // BOTTOM TOP
+     
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+  </script>
+</body>
+
+</html>

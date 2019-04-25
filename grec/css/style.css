@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1170px;
+    min-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/***********************************@media querys****************************************/
+
+
+/*Dispositius petits (telèfons, 576px i superior)*/
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/*Dispositius mitjans (tablets, 768px i superior)*/
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/*Dispositius grans (ordinadors d’escriptori, 992px i superior)*/
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/*Dispositius molt grans (ordinadors d’escriptori, 1200px i superior)*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/*****************************Elementos del HEADER**********************************/
+header {
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+header nav ul a {
+        text-decoration: none;
+    color: #242424;
+    padding: 0 15px;
+}
+
+
+header nav ul li::after {
+    content: " | ";
+}
+
+header nav ul li:last-child::after {
+    content: "";
+}
+
+header div ul.redes {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 25px;
+    position: relative;
+    list-style-type: none;
+}
+
+ul.redes a {
+
+    color: gray;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+
+/*****************************Elementos del HERO**********************************/
+
+.hero-image {
+    background-image: url(../img/grec18-cabecera.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0px 10px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*****************************Elementos del ARTICLE**********************************/
+
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+article div {
+    padding-left: 15px;
+}
+
+article h3 div {
+    padding: 25px;
+    display: flex;
+}
+
+article div.color1 {
+    margin-top: 40px;
+
+}
+
+article div.color2 {
+    margin-top: 40px;
+}
+
+article div.color3 {
+    margin-top: 40px;
+}
+
+article div.color4 {
+    margin-top: 40px;
+}
+
+article div.color5 {
+    margin-top: 40px;
+}
+
+article div.color1,
+article h3.color1 a {
+    color: #FF9624;
+}
+
+article div.color2,
+article h3.color2 a {
+    color: #814FC1;
+
+}
+
+article div.color3,
+article h3.color3 a {
+    color: #1790c2;
+}
+
+article div.color4,
+article h3.color4 a {
+    color: #4CB431;
+}
+
+article div.color5,
+article h3.color5 a {
+    color: #D2BF0C;
+}
+
+article :nth-last-child(4) {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+#grec-ciutat {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+
+#grec-montjuic article {
+    width: 24%;
+    margin: 15px 5px;
+    background-color: white;
+    
+}
+
+#grec-ciutat article {
+    width: 24%;
+    margin: 15px 5px;
+    background-color: white;
+    display: flex;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h3 a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+h3 {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+.lugar {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*****************************Elementos de  Botones**********************************/
+
+.red-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #d51919;
+    border: 2px solid #d51919;
+    padding: 15px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+       
+}
+
+.red-button a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+    color: #d51919;
+    border: 2px solid #d51919;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.menu-scroll li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.menu-scroll li a {
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: white;
+
+    
+}
+
+.menu-scroll li a:hover{    
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: #f1f1f1;
+    border: 2px solid #000000;
+    color: #000000;
+}
+.ver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ver a{    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #000000;
+    border: 2px solid #000000;
+    padding: 10px;
+    color: white;
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ver a:hover{    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #f1f1f1;
+    border: 2px solid #000000;
+    padding: 10px;
+    color: #000000;
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*****************************Elementos del FOOTER**********************************/
+
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+footer nav ul a {
+    border-right: 1px solid red;
+    text-decoration: none;
+    color: red;
+    padding: 0 15px;
+
+    margin-top: 50px;
+
+}
+
+footer nav {
+    border-top: 1px solid #ccc;
+    margin-top: 115px;   
+}
